@@ -25,6 +25,7 @@ using System.Threading.Tasks;
 
 
 
+
 namespace Lab05
 {
     class Program
