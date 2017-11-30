@@ -10,13 +10,16 @@ namespace Lab09
     {
         static void Main(string[] args)
         {
+
             MyMath math1 = new MyMath();
             double sum = math1.AddNumbers(10, 20);
             Console.WriteLine(sum);
 
-            int product = MyMath.Multiply(10, 20);
+
+            MyMath math2 = new MyMath();
+            double result = math2.multiply(10, 20);
+            Console.WriteLine(result);
+
         }
-
-
     }
 } 
