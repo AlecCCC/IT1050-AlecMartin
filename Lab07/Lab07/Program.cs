@@ -42,8 +42,12 @@ namespace Lab07
 
         ///////////////////////   Question Three   ///////////
 
-
-
+        int speedLimit;
+          int speed;
+         speedLimit = 35; 
+         speed = 42; 
+         if (speed > speedLimit) 
+         Console.Write( "SLOW NOW" );
 
 
 
@@ -110,4 +114,4 @@ namespace Lab07
 
 
     }
-    }
+}
