@@ -17,8 +17,16 @@ namespace Lab09
 
 
             MyMath math2 = new MyMath();
-            double result = math2.multiply(10, 20);
+            double result = math2.Multiply(10, 20);
             Console.WriteLine(result);
+
+            MyMath math3 = new MyMath();
+            double division = math3.Divide(10, 5);
+            Console.WriteLine(division);
+
+            MyMath math4 = new MyMath();
+            double Subtract = math4.Divide(10, 10);
+            Console.WriteLine(division);
 
         }
     }

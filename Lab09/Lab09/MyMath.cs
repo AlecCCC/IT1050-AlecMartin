@@ -20,12 +20,34 @@ namespace Lab09
             return result;
         }
 
-        public double multiply(double op1, double op2)
+        public double Multiply(double op1, double op2)
         {
             operand1 = op1;
             operand2 = op2;
             result = operand1 * operand2;
             return result;
+
+
         }
+
+        public double Divide(double op1, double op2)
+        {
+            operand1 = op1;
+            operand2 = op2;
+            result = operand1 / operand2;
+            return result;
+     
+        }
+
+        public double Subtract(double op1, double op2)
+        {
+            operand1 = op1;
+            operand2 = op2;
+            result = operand1 / operand2;
+            return result;
+
+        }
+
+
     }
-}
+    }
