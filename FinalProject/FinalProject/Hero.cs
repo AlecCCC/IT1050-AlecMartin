@@ -173,11 +173,21 @@ namespace FinalProject
         public void Display3()
         {
             Console.WriteLine(Name + " is " + Age + " Years old, and has " + Health + " health.  After charging his power, it is at  " + PowerLevel + ".");
+
+            {
+                Console.WriteLine(this.Name + " is climbing");
+            }
+
+            {
+                Console.WriteLine("Investigated Crime");
+            }
+
             if (PowerLevel > 49)
             {
                 Console.WriteLine("Successfully fought crime at address");
                 return;
             }
+
 
             else if (PowerLevel < 49)
             {
