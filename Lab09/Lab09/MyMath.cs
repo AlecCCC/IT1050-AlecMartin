@@ -35,7 +35,8 @@ namespace Lab09
             operand1 = op1;
             operand2 = op2;
             result = operand1 / operand2;
-            return result;
+
+           Console.WriteLine("Value is", result);
      
         }
 
