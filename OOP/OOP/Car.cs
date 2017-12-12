@@ -33,18 +33,21 @@ namespace OOP
             Speed = 0;
         }
 
-      public void SpeedUp(int speedIncrement)
+      public int SpeedUp()
         {
-
+            this.Speed++;
+            return this.Speed;
         }
     
-      public void SlowDown(int speedDecrement)
+      public int SlowDown()
         {
-
+            this.Speed--;
+            return this.Speed;
         }
 
      public void Display()
         {
+            Console.WriteLine(Year + " " + Make + " " + Model + " is going " + Speed + " MPH.");
 
         }
     }
