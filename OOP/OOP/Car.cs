@@ -48,7 +48,6 @@ namespace OOP
      public void Display()
         {
             Console.WriteLine(Year + " " + Make + " " + Model + " is going " + Speed + " MPH.");
-
         }
     }
 }
