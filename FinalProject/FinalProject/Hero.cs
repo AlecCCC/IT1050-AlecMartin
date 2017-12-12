@@ -133,6 +133,10 @@ namespace FinalProject
                 Console.WriteLine("Investigated Crime");
             }
 
+            {
+                Console.WriteLine(this.Name + " is climbing");
+            }
+
             Console.WriteLine();
         }
     
@@ -157,6 +161,10 @@ namespace FinalProject
             {
                 Console.WriteLine(this.Name + " is climbing");
             }
+
+            {
+                Console.WriteLine("Investigated Crime");
+            }
             Console.WriteLine();
         }
 
@@ -174,6 +182,14 @@ namespace FinalProject
             else if (PowerLevel < 49)
             {
                 Console.WriteLine("Could not Fight!");
+            }
+
+            {
+                Console.WriteLine(Name + " is climbing");
+            }
+
+            {
+                Console.WriteLine("Investigated Crime");
             }
 
         }
