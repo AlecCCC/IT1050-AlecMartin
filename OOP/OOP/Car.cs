@@ -42,5 +42,10 @@ namespace OOP
         {
 
         }
+
+     public void Display()
+        {
+
+        }
     }
 }
